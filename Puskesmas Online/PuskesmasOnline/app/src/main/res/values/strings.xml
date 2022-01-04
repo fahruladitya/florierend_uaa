@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Puskesmas Online</string>
+    <string name="txt_selamatdatang">Selamat Datang</string>
+    <string name="txt_harap">Harap masukkan akun anda atau daftar jika</string>
+    <string name="txt_anda">Anda belum punya akun untuk melanjutkan</string>
+    <string name="txt_masukkan">Masukkan nomor telephone atau email</string>
+    <string name="txt_masuk">Masuk</string>
+    <string name="txt_ataumasuk">Atau masuk dengan akun</string>
+    <string name="txt_halo">Halo,</string>
+</resources>

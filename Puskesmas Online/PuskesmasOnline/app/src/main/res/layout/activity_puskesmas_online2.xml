@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PuskesmasOnline2">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/txt_halo"
+       android:textColor="#347C36"
+       android:textSize="25dp"
+       android:textStyle="bold"
+       android:typeface="sans"
+       android:layout_marginLeft="50dp"
+       android:layout_marginTop="40dp"
+       android:id="@+id/txt_halo"
+       />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Muhammad Fahrul A"
+       android:layout_below="@+id/txt_halo"
+       android:textColor="#347C36"
+       android:textSize="18dp"
+       android:typeface="sans"
+       android:layout_marginLeft="50dp"
+       android:id="@+id/txt_fahrul"
+       />
+
+   <ImageView
+       android:layout_width="265dp"
+       android:layout_height="176dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="120dp"
+       android:background="@drawable/Epus"
+       android:id="@+id/img_epus"
+       />
+
+   <ImageView
+       android:layout_width="450dp"
+       android:layout_height="440dp"
+       android:layout_below="@+id/img_epus"
+       android:layout_centerHorizontal="true"
+       android:background="@drawable/Rectangle10"
+       />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="350dp"
+       android:background="@drawable/pendaftaran"
+       android:layout_marginLeft="30dp"
+
+       />
+
+
+</RelativeLayout>

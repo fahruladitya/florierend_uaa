@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg" />
+
+    <ImageView
+        android:layout_width="236dp"
+        android:layout_height="68dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="674dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/img_logo"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/txt_selamatdatang"
+        android:layout_marginRight="30dp"
+        android:textColor="#347C36"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:id="@+id/txt_selamatdatang"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="89dp"
+        android:layout_marginRight="90dp"
+        android:text="@string/txt_harap"
+        android:layout_below="@+id/txt_selamatdatang"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:id="@+id/txt_harap"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="89dp"
+        android:layout_marginRight="90dp"
+        android:text="@string/txt_anda"
+        android:layout_below="@+id/txt_harap"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:id="@+id/txt_anda"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/txt_anda"
+        android:layout_marginLeft="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/satu"
+        android:id="@+id/et_masukkannomor"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dua"
+        android:layout_below="@+id/et_masukkannomor"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:id="@+id/et_masuk"
+        />
+
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_masukkan"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="271dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:id="@+id/txt_masukkan"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_masuk"
+        android:layout_below="@+id/et_masukkannomor"
+        android:layout_marginLeft="197dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:id="@+id/txt_masuk"
+        />
+
+    <TextView
+        android:layout_width="184dp"
+        android:layout_height="47dp"
+        android:text="@string/txt_ataumasuk"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="200dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:id="@+id/txt_ataumasuk"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/satu"
+        android:layout_below="@+id/txt_ataumasuk"
+        android:layout_marginTop="-200dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginRight="73dp"
+        android:id="@+id/google"
+        />
+
+    <ImageView
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        android:background="@drawable/flat"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="270dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/img_logogoogle"
+         />
+
+    <TextView
+        android:layout_width="184dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="462dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="200dp"
+        android:text="Masuk dengan Google"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/satu"
+        android:layout_below="@id/google"
+        android:layout_marginRight="73dp"
+        android:layout_marginLeft="73dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_logogoogle"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="-239dp"
+        android:layout_marginEnd="340dp"
+        android:src="@drawable/logos_facebook" />
+
+    <TextView
+        android:layout_width="184dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="199dp"
+        android:text="Masuk dengan Facebook"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="720dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="199dp"
+        android:text="Belum punya akun?"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginTop="720dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="199dp"
+        android:text="Daftar disini?"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+
+</RelativeLayout>
